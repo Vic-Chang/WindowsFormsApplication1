@@ -21,5 +21,9 @@ namespace WindowsFormsApplication1
         {
             Debug.WriteLine("Hello");
         }
+        public void sayHi(string word)
+        {
+            Debug.WriteLine(word);
+        }
     }
 }
