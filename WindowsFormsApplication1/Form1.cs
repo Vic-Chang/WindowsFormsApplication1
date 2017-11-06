@@ -25,5 +25,12 @@ namespace WindowsFormsApplication1
         {
             Debug.WriteLine(word);
         }
+        public void sayHi(string word,int count)
+        {
+            for (int i = 0; i < count; i++)
+            {
+                Debug.WriteLine(word);
+            }
+        }
     }
 }
