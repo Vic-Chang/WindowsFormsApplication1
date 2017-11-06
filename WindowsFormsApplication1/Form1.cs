@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,10 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
+        }
+        public void sayHi()
+        {
+            Debug.WriteLine("Hello");
         }
     }
 }
